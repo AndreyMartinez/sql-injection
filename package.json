@@ -1,0 +1,11 @@
+{
+  "name": "sql-injections",
+  "version": "0.0.7",
+  "description": "project sql-injection in expresion regular",
+  "main": "sql-injections.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dreamer98",
+  "license": "MIT"
+}
