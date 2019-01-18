@@ -1,6 +1,6 @@
 {
   "name": "sql-injections",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "project sql-injection in expresion regular",
   "main": "sql-injections.js",
   "scripts": {
