@@ -3,6 +3,8 @@
   "version": "0.0.9",
   "description": "project sql-injection in expresion regular",
   "main": "sql-injections.js",
+  "keywords": "sql-injections.js",
+  "licenses" : { "type": "MIT", "url": "https://www.opensource.org/licenses/mit-license.php"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
