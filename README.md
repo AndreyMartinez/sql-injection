@@ -3,22 +3,44 @@
 some sql injection</p>
 
 <h2>EXAMPLE</h2>
-
-<p>si detecta algun valor con sql injection retornara true de lo contrario retornara false </p>
+<p>If any value is detected with injection sql it will return true, otherwise it will return false </p>
 
 <h2>RESULT <h2>
 <p>result of the following line</p>
+<p>Import project with react , vue ,angular<p>
 
-~~~~
-import sqlInjection from 'sql-injections'
+	
+```
+import sqlInjection from 'sql-injections'	
+```
 
-require sqlInjection from 'sql-injection'
-~~~~
+<p>Import project with node</p>
 
+	
+```
+const sqlInjection require sqlInjection	
+```
+
+<p>Example</p>
+
+	
 ```
 let text = "SELECT * FROM "
  let result = sqlInjection.hasSql(text)
 console.log(result)
 ```
-<h2>RESULT <h2>
-<p>result of the following line</p>
+
+<p>RESULT<p>
+<p>true</p>
+
+<p>Second example</p>
+
+	
+```
+let text = "Your name "
+ let result = sqlInjection.hasSql(text)
+console.log(result)
+```
+
+<p>RESPULT</p>
+<p>false</p>

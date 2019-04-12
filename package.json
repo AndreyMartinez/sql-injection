@@ -1,10 +1,21 @@
 {
   "name": "sql-injections",
-  "version": "0.0.9",
+  "version": "0.0.13",
   "description": "project sql-injection in expresion regular",
   "main": "sql-injections.js",
   "keywords": "sql-injections.js",
-  "licenses" : { "type": "MIT", "url": "https://www.opensource.org/licenses/mit-license.php"},
+  "licenses": {
+    "type": "MIT",
+    "url": "https://www.opensource.org/licenses/mit-license.php"
+  },
+  "bugs": {
+    "url": "https://github.com/AndreyMartinez/sql-injection/issues",
+    "email": "project@hostname.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndreyMartinez/sql-injection"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
