@@ -53,6 +53,6 @@ let text = "Your name "
 console.log(result)
 ```
 
-RESPULT
+RESULT
 ----- 
 false
