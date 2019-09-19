@@ -1,27 +1,37 @@
-<h1>SQL-INJECTIONS</h1>
-<p>It is a small frontend library that seeks to find in the fields of the forms
-some sql injection</p>
+SQL-INJECTIONS
+=================
 
-<h2>EXAMPLE</h2>
-<p>If any value is detected with injection sql it will return true, otherwise it will return false </p>
+[![npm version](https://badge.fury.io/js/sql-injections.svg)](https://badge.fury.io/js/sql-injections)
 
-<h2>RESULT <h2>
-<p>result of the following line</p>
-<p>Import project with react , vue ,angular<p>
+
+It is a small frontend library that seeks to find in the fields of the forms
+some sql injection
+
+
+EXAMPLE
+-----
+
+If any value is detected with injection sql it will return true, otherwise it will return false 
+
+RESULT
+----- 
+result of the following line
+Import project with react , vue ,angular
 
 	
 ```
 import sqlInjection from 'sql-injections'	
 ```
 
-<p>Import project with node</p>
+Import project with node
 
 	
 ```
 const sqlInjection require sqlInjection	
 ```
 
-<p>Example</p>
+Example
+----- 
 
 	
 ```
@@ -30,11 +40,12 @@ let text = "SELECT * FROM "
 console.log(result)
 ```
 
-<p>RESULT<p>
-<p>true</p>
+RESULT
+----- 
+true
 
-<p>Second example</p>
-
+Second example
+----- 
 	
 ```
 let text = "Your name "
@@ -42,5 +53,6 @@ let text = "Your name "
 console.log(result)
 ```
 
-<p>RESPULT</p>
-<p>false</p>
+RESPULT
+----- 
+false
